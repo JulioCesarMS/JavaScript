@@ -1,3 +1,4 @@
+import impor from 'impor';
 
 // fuciones 
 
@@ -45,9 +46,10 @@ function calcularOperacion(numero1, numero2, operacion){
 
 }
 
+import promp from prompt
 
-let numero1 = Number(prompt('Ingrese el primer número: '))
-let numero2 = Number(prompt('Ingrese el segundo número: '))
+let numero1 = Number(promp('Ingrese el primer numero: '))
+let numero2 = Number(promp('Ingrese el segundo número: '))
 let operacion = prompt('Ingrese la operación: ', 'Ej. + - * 7')
 
 let resultado = calcularOperacion(numero1, numero2, operacion)
